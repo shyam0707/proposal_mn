@@ -7,7 +7,7 @@ export default function YesPage() {
   const titleRef = useRef<HTMLHeadingElement>(null);
   const subtitleRef = useRef<HTMLParagraphElement>(null);
   const emojiRef = useRef<HTMLSpanElement>(null);
-  const titleText = "My Girlfriend";
+  const titleText = "عزیزم، من عاشق تو هستم"; // "My love, I love you" in Persian
 
   useEffect(() => {
     // Animate the title letters
